@@ -16,7 +16,12 @@ layout: default
         </h2>
         <span class="post-meta">{{ post.excerpt}}</span>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} •</span>
-        <span class="post-meta">{{ post.category }}</span> <br/>
+        <span class="post-meta">
+          {% for cat in post.categories %}
+	    {{ cat }}
+	  {% endfor %}
+	</span> 
+        <br/>
       </li>
     {% endfor %}
   </ul>
