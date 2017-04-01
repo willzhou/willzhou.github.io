@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 本人乃，
@@ -11,6 +11,6 @@ permalink: /about/
 
 本博客由[jekyll](https://github.com/jekyll/jekyll)创建，托管于[github](https://github.com)。
 
-扫码加微信：
+微信：
 
 ![](/assets/img/wechat.png)

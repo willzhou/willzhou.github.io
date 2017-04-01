@@ -11,7 +11,7 @@ layout: default
         {{ cat }}
       {% endfor %} 
     </span>
-<br/>
+   <br/>
     <span class="post-meta">Keys:
       {% for tag in page.tags%}
         {{ tag }}{% if forloop.last == false %}, {% endif %}
@@ -23,6 +23,11 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+<p>
+<center><span class="post-meta" style="color:#fdac34;letter-spacing:4px;
+">谢谢打赏</span><br/>
+<img src="/assets/img/pay.png"></img></center>
+</p>
 
   {% if site.comments %}
     {% include intensedebate-comments.html %}
