@@ -13,15 +13,20 @@ layout: default
     </span>
 <br/>
     <span class="post-meta">Keys:
-          {% for tag in page.tags%}
-            {{ tag }}{% if forloop.last == false %}, {% endif %}
-          {% endfor %}</span>
+      {% for tag in page.tags%}
+        {{ tag }}{% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+    </span>
     </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {% if site.comments %}
+    {% include intensedebate-comments.html %}
+  {% endif %}
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
