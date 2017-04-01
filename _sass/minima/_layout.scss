@@ -2,17 +2,17 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid #a0a0a0;//$grey-color-light;
+  border-top: 3px solid #4fd444;//$grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  background-color: #dcdfec;
+  //background-color: #ecefec;
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
