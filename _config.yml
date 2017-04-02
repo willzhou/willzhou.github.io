@@ -22,7 +22,7 @@ url: "willzhou.cn" # the base hostname & protocol for your site, e.g. http://exa
 author: "Will Zhou"
 timezone: "Asia/Shanghai"
 #twitter_username: willzhou
-github_username:  willzhou
+#github_username:  willzhou
 
 # Build settings
 markdown: kramdown
