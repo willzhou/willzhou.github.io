@@ -11,6 +11,13 @@ permalink: /about/
 
 本博客由[jekyll](https://github.com/jekyll/jekyll)创建，托管于[github](https://github.com)。
 
+简历如下：
+* 2006 - 2009 BASE FX 视觉特效公司
+* 2009 - 2012 Fantawild Films 影视投资公司
+* 2013 - 2015 Phenom Films 天工异彩影视后期全流程
+* 2015 - 2016 Wanda Group 万达集团
+* 2016 - 至今 暂时给自己打工ing
+
 微信：
 
 ![](/assets/img/wechat.png)
